@@ -234,15 +234,15 @@ th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€";
+  content: ">";
 }
 
 .w-icon-slider-left:before {
-  content: "î˜";
+  content: "<";
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "⋮";
 }
 
 .w-icon-arrow-down:before,
@@ -2211,6 +2211,10 @@ textarea.w-select {
 .w-dyn-bind-empty,
 .w-condition-invisible {
   display: none !important;
+}
+
+.wf-layout-layout {
+  display: grid;
 }
 
 body {
@@ -8646,6 +8650,7 @@ p {
 }
 
 .div-block-129 {
+  height: 22px;
   justify-content: center;
   align-items: center;
   margin-top: 31px;
@@ -8693,7 +8698,7 @@ p {
   padding-left: 5%;
   padding-right: 5%;
   font-family: Oswald, sans-serif;
-  display: flex;
+  display: none;
 }
 
 .section__title-copy {
@@ -9229,6 +9234,29 @@ p {
   min-width: auto;
   object-fit: fill;
   overflow: visible;
+}
+
+.div-block-115-copy {
+  max-width: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Oswald, sans-serif;
+  display: none;
+}
+
+.heading-38-copy-copy {
+  height: 18px;
+  color: #000;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 18px;
 }
 
 @media screen and (min-width: 1280px) {
